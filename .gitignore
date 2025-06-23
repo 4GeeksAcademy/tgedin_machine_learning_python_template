@@ -1,3 +1,4 @@
 __pycache__
 .env
 .learn
+/workspaces/tgedin_machine_learning_python_template/src/data/raw/AB_NYC_2019.csv
