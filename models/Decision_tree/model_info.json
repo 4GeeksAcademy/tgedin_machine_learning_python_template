@@ -1,0 +1,20 @@
+{
+  "criterion": "gini",
+  "best_params": {
+    "max_depth": 5,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "min_samples_split": 2
+  },
+  "test_accuracy": 0.7142857142857143,
+  "features": [
+    "Glucose",
+    "Insulin",
+    "BMI",
+    "SkinThickness",
+    "Age",
+    "Pregnancies",
+    "BloodPressure",
+    "DiabetesPedigreeFunction"
+  ]
+}
