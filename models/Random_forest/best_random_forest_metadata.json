@@ -1,0 +1,72 @@
+{
+  "model_name": "rf_small",
+  "model_type": "RandomForestClassifier",
+  "parameters": {
+    "n_estimators": 50,
+    "max_depth": 8,
+    "min_samples_split": 5
+  },
+  "performance": {
+    "train_accuracy": 0.9381107491856677,
+    "test_accuracy": 0.7402597402597403,
+    "improvement_over_decision_tree": 0.025974025974025983
+  },
+  "feature_importance": [
+    {
+      "Feature": "Glucose",
+      "Importance": 0.2713615649264067
+    },
+    {
+      "Feature": "Insulin",
+      "Importance": 0.18640221570429027
+    },
+    {
+      "Feature": "BMI",
+      "Importance": 0.14870556648132416
+    },
+    {
+      "Feature": "Age",
+      "Importance": 0.10130159290414459
+    },
+    {
+      "Feature": "DiabetesPedigreeFunction",
+      "Importance": 0.09134011517258306
+    },
+    {
+      "Feature": "SkinThickness",
+      "Importance": 0.07372941047765501
+    },
+    {
+      "Feature": "Pregnancies",
+      "Importance": 0.0724686102790454
+    },
+    {
+      "Feature": "BloodPressure",
+      "Importance": 0.05469092405455088
+    }
+  ],
+  "dataset_info": {
+    "training_samples": 614,
+    "test_samples": 154,
+    "features": [
+      "Glucose",
+      "Insulin",
+      "BMI",
+      "SkinThickness",
+      "Age",
+      "Pregnancies",
+      "BloodPressure",
+      "DiabetesPedigreeFunction"
+    ],
+    "target_distribution": [
+      400,
+      214
+    ]
+  },
+  "limitations": [
+    "Low recall for diabetes detection (59%)",
+    "Small dataset size insufficient for robust performance",
+    "Model not suitable for healthcare deployment",
+    "Requires significant data quality improvements"
+  ]
+}
