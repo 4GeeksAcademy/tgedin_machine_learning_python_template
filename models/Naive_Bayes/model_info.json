@@ -1,0 +1,27 @@
+{
+  "best_model": "Naive Bayes",
+  "date_created": "2025-07-16 07:26:15",
+  "test_accuracy": 0.8491620111731844,
+  "naive_bayes_accuracy": 0.8491620111731844,
+  "dataset_size": 891,
+  "features": 3315,
+  "vectorizer_params": {
+    "analyzer": "word",
+    "binary": false,
+    "decode_error": "strict",
+    "dtype": "<class 'numpy.int64'>",
+    "encoding": "utf-8",
+    "input": "content",
+    "lowercase": true,
+    "max_df": 1.0,
+    "max_features": 5000,
+    "min_df": 1,
+    "ngram_range": "(1, 1)",
+    "preprocessor": null,
+    "stop_words": "english",
+    "strip_accents": null,
+    "token_pattern": "\\b\\w+\\b",
+    "tokenizer": null,
+    "vocabulary": null
+  }
+}
